@@ -2,7 +2,7 @@ services:
   - type: web
     name: strapi
     env: node
-    plan: starter plus
+    plan: standard
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
